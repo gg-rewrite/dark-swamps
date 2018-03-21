@@ -1,0 +1,11 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=0pt]{geometry}
+\usepackage[skins,raster]{tcolorbox}
+\pagestyle{empty}
+\begin{document}
+\begin{tcbraster}[raster height=\textheight,raster equal skip=0pt,blank,
+  %graphics pages={14,1,12,3,  2,13,4,11,  10,5,8,7,  6,9,5,5}]
+      graphics pages={8,1,6,3,  2,7,4,5}]
+  \tcbincludepdf{squad.pdf}% <-- The A6 document with 8 pages
+\end{tcbraster}
+\end{document}
