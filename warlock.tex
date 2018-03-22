@@ -17,9 +17,9 @@
 \begin{center}
 {\LARGE \textbf{Колдун}}
 
-%\begin{figure}[H]
-%  \includegraphics[width=170px]{images/warlock.png}
-%\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=170px]{images/warlock.png}
+\end{figure}
 
 \end{center}
 \begin{description}
@@ -39,93 +39,16 @@
 \pagebreak
 
 % Character info
-\section*{Информация}
-\begin{description}
-\item[Имя]{\footnotesize (см. Имена и черты)}
-\item[Внешность] {\footnotesize (Выбери несколько) Изнуренное лицо,
-    безумные глаза,  вздутые вены, роба в бурых пятнах, длинные черные
-    ногти, причудливый   плащ с капюшоном, кривые зубы\ldots}
 
-\item[Черты характера]{\footnotesize (Выбери две, см. Имена и черты)}
+\include{char-info}
 
-\item[Цель] {\footnotesize (Что тебя ведет? Что ты ищешь на болотах?)
-    Секрет   могущества? Способ разорвать темную сделку?}
+% Stats
 
-\item[Страсть]{\footnotesize (В чем твоя слабость?) Садизм? Маковый порошок?}
+\include{stats}
 
-\item[Темная предыстория]{\footnotesize (Почему ты бежал на болота?)}
-
-\item[Контакт] {\footnotesize (Кто ждет тебя в городе?) Старый друг? Ученик?}
-
-\item[Связь с отрядом]{\footnotesize (Почему ты доверяешь другим?)}
-\end{description}
-\pagebreak
-
-% page 4. Stats
-\section*{Характеристики}
-
-\begin{center}
-  \begin{tabular}{l c}
-     Уровень & \verb!        !\\ 
-  \end{tabular}
-
-\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|}
-  \hline
-  Опыт & & & & & & & & & &\\ \hline
-\end{tabular}
-
-{\footnotesize 10 опыта= новый уровень}
-\end{center}
-\begin{tabular}{l c}
-  Cудьба{\tiny(Макс. 3)} & \\
-  Козырь & \\
-  Эссенции & \\ 
-\end{tabular}
-
-\begin{center}
-\begin{tabular}{|p{2cm}|p{1cm}|p{1cm}|p{3cm}|}
-\hline
-  Распредели 7,5,4,2 & Макс & Текущ. & Ходы \\ \hline
-  Стать & & & {\footnotesize Схватка, Запугивание}\\ [5ex] \hline
-  Прыть & & & {\footnotesize Незаметность, Разведка, Скрытая Атака}\\ \hline
-  Нрав & & & {\footnotesize Обман, Переговоры, При Смерти}\\ [5ex] \hline
-  Ум & & & {\footnotesize Знания, Восприятие, Поиск Пути, Первая Помощь} \\ \hline
-\end{tabular}
-
-\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1cm}|p{3cm}|}
-  \hline
-   & Макс & Текущ. & Состояние \\ \hline
-  Жизнь & 4+Стать & & Ранен($\leq 5$) \\ \hline
-  Воля & 2+Нрав & & Сломлен($\leq 3$) \\ \hline
-  Тьма & 10  & &  Осквернен($\geq 6$) \\ \hline
-\end{tabular}
-
-\end{center}
-
-\pagebreak
 % Inventory.
-\section*{Инвентарь}
 
-Твоя ноша = 5+Стать(\verb!   !). Ты {\scshape Перегружен}, если вес
-предметов больше
-\begin{center}
-  {\footnotesize
-\begin{tabular}{|p{2cm}|p{0.5cm}|p{4.5cm}|}
-  \hline
-  Название & Вес & Свойства \\ \hline
-  Запасы {\tiny Макс. 10} & 2 & 5 запасов = Вес 1 \\
-  Провиант & 1 & 5 рационов = Вес 1 \\
-  Дукаты & 0 & 10 дукатов = Вес 1 \\ \hline
-  Фолиант & 1 & В нем записаны все твои заклятья \\
-  Ритуальный нож & 0 & 1р, урон 3, стать/прыть, вплотную, скрытое, зачарованный \\
-  Зловещий плащ & 1 & Легкий доспех, броня 1, проблемный(заметный) \\
-  Древний жезл & 2 & 1р, урон 4, стать, рядом, оглушение, статусный(культы) \\
-   & & \\ [45ex]
-   \hline  
-\end{tabular}
-}
-\end{center}
-\pagebreak
+\include{inventory}
 
 % Skills
 \section*{Начальные ходы}
